@@ -1,0 +1,31 @@
+{
+  "name": "txt-file-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/loader.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel ./src/index.js -o ./dist/loader.js",
+    "lint": "eslint --cache --fix ."
+  },
+  "author": "Jobanpreet Singh",
+  "repository": "https://github.com/Jobanpreet/txt-loader",
+  "homepage": "https://github.com/Jobanpreet/txt-loader",
+  "bugs": "https://github.com/Jobanpreet/txt-loader/issues",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "jest": "^26.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0 || ^5.0.0"
+  }
+}

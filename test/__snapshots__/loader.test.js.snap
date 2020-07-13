@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Txt file loader GIVEN options are invalid SHOULD throw error 1`] = `
+[Error: ./test/assets/whats-your-name.txt
+Module build failed (from ./src/index.js):
+ValidationError:  Invalid Options
+
+options.esModule should be boolean
+
+    at validateOptions (/Users/Joban/Desktop/Joban/Projects/UI/webpack-demo/new-txt-loader/txt-loader/node_modules/schema-utils/src/validateOptions.js:32:11)
+    at Object.txtLoader (/Users/Joban/Desktop/Joban/Projects/UI/webpack-demo/new-txt-loader/txt-loader/src/index.js:8:3)
+ @ ./test/index.js 1:0-47 3:15-18]
+`;
