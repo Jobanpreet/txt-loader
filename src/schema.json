@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties":{
+        "esModule":{
+            "type": "boolean"
+        },
+        "name":{
+            "type": "string"
+        }
+    }
+}
